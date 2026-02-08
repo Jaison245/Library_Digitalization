@@ -51,6 +51,7 @@ class DynamicHashMap(HashMap):
     
     def insert(self, key):
         # YOU DO NOT NEED TO MODIFY THIS
+        # hi all
         super().insert(key)
         
         if self.get_load() >= 0.5:
